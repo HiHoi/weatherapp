@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "날씨 측정",
     "slug": "weatherapp",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -11,7 +11,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/appicon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -25,6 +25,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android" : {
+      "package": "com.hihoi.weatherapp",
+      "versionCode": 1
     }
   }
 }
